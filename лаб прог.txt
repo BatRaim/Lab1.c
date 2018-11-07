@@ -1,0 +1,17 @@
+#include <studio.h>
+#include <math.h>
+int main()
+{
+float G,F,Y,a,x;
+printf("¬ведите x: \n");
+scanf("%f", &x);
+printf("¬ведите a: \n");
+scanf("%f", &a);
+G=4*(18*a*a-31*a*x+6*x*x)/(-10*a*a+7*a*x+12*x*x);
+F=sinh(28*a*a+53*a*x+24*x*x);
+y=log(4*a*a-9*a*x+2*x*x+1)/log(2);
+printf("G =  %f \n", G);
+printf("F =  %f \n", F);
+printf("Y =  %f \n", Y);
+return 0;
+}
