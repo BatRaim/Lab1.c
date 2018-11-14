@@ -1,1 +1,1 @@
-# Lab1.c
+# moi laby
